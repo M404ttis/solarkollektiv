@@ -5,4 +5,4 @@ building a website for friends who are building photovoltaik panels on roofs in 
 Vue.js, quasar, typescript, pinia 
 
 # Collaboration
-This repo is happy to get any help it can
+This repo is happy to get any help it can!
