@@ -1,5 +1,6 @@
 export const aboutUsTexts = [
   {
+    icon: 'hand',
     title: 'Alles aus einer Hand',
     text: `
         Alle Arbeiten, die im Zuge der Installation einer Photovoltaik-Anlage
@@ -17,6 +18,7 @@ export const aboutUsTexts = [
         `,
   },
   {
+    icon: 'people',
     title: 'kollektiv',
     text: `
         Bei uns gibt es keine Investoren oder Kreditgeber, für die wir Gewinne erwirtschaften müssen. Der
@@ -27,6 +29,7 @@ export const aboutUsTexts = [
     `,
   },
   {
+    icon: 'tree',
     title: 'Ökologisch',
     text: `
         Wir wollen einen Beitrag dazu leisten, dass die Erderwärmung & die Umweltzerstörung infolge des

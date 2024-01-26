@@ -14,6 +14,10 @@ export default {
   name: 'AboutUsCard',
   components: {},
   props: {
+    icon: {
+      type: String,
+      required: false,
+    },
     title: {
       type: String,
       required: true,
