@@ -11,7 +11,13 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Solarkollektiv </q-toolbar-title>
+        <div class="gt-sm row justify-center col-md-6" >
+          <img src="../assets/pictures/logo/logo_solar_no-bg.png"
+           alt="Solar Kollektiv Logo" />
+        </div>
+        <q-toolbar-title>
+          Solarkollektiv
+        </q-toolbar-title>
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>

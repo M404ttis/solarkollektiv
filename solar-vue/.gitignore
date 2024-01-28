@@ -5,6 +5,8 @@ node_modules
 # Quasar core related directories
 .quasar
 /dist
+# change this when uploading pictures for real!!!
+/src/assets
 /quasar.config.*.temporary.compiled*
 
 # Cordova related directories and files
