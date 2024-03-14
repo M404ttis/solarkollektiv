@@ -1,5 +1,4 @@
 <template>
-  <q-page class="">
     <q-carousel
       v-model="slide"
       transition-prev="scale"
@@ -11,9 +10,9 @@
       navigation
       padding
       arrows
-      height="50vh"
       class="bg-secondary rounded-borders q-ma-md column "
     >
+
       <q-carousel-slide
         v-for="text in aboutUsTexts"
         :key="text.title"
@@ -21,6 +20,7 @@
         :name="text.title"
         class="row flex-center"
       >
+
       <!-- <q-icon :name="text.icon" class="column no-wrap flex-center" /> -->
           <h4 class="q-mb-sm">{{text.title}}</h4>
         <div class="q-mt-md text-center">
@@ -28,7 +28,6 @@
         </div>
       </q-carousel-slide>
     </q-carousel>
-  </q-page>
 </template>
 
 <script lang="ts">
@@ -39,7 +38,7 @@ export default defineComponent({
   name: 'AboutUsCarousel',
   components: {},
   setup() {
-    let slide = ref(null);
+    const slide = ref(2);
     return { slide, aboutUsTexts };
   },
 });

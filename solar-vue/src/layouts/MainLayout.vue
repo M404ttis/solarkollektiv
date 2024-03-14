@@ -12,7 +12,7 @@
         />
 
         <div class="gt-sm row justify-center col-md-6" >
-          <img src="../assets/pictures/logo/logo_solar_no-bg.png"
+          <!-- <img src="../assets/pictures/logo/logo_solar_no-bg.png" -->
            alt="Solar Kollektiv Logo" />
         </div>
         <q-toolbar-title>
