@@ -16,6 +16,9 @@ export const aboutUsTexts = [
         Preises und die Aufteilung der Kosten auf Material und Arbeitszeit
         betrifft.
         `,
+      srcPath:`
+         src/assets/solar1.jpg
+        `
   },
   {
     icon: 'people',
@@ -25,8 +28,11 @@ export const aboutUsTexts = [
         Betrieb gehört uns als Belegschaft und damit den Menschen, die die tägliche Arbeit verrichten. Wir
         entscheiden gemeinsam und gleichberechtigt darüber, wie sich der Betrieb gestaltet wird und wie
         wir arbeiten wollen. Damit entscheiden also die Menschen über die Arbeitsbedingungen, die davon
-        auch direkt betroffen sind und nicht irgendwelche Gesellschafter:innen in der der Ferne',
+        auch direkt betroffen sind und nicht irgendwelche Gesellschafter:innen in der der Ferne.
     `,
+      srcPath:`
+         src/assets/sunrays_forest.jpg
+        `
   },
   {
     icon: 'tree',
@@ -44,5 +50,9 @@ export const aboutUsTexts = [
         außerdem für unser Büro Ökostrom von den Bürgerwerken, der zu 100% aus bürgereigenen
         Erneuerbare-Energien-Anlagen stammt.
     `,
+
+      srcPath:`
+         src/assets/sunrays_valley.jpg
+        `
   },
 ];
