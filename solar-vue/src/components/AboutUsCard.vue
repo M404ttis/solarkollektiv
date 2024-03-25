@@ -1,11 +1,18 @@
 <template>
-  <div id="about-us-card">
-    <q-card class="q-ma-md q-pa-sm">
-      <h4 class="q-mb-md">{{ title }}</h4>
-      <p class="q-ma-xs">
+  <div id="about-us-card ">
+
+    <q-card class="my-card q-ma-md">
+      <q-img :src=imgUrl>
+        <div class="absolute-bottom text-h6">
+          {{title}}
+        </div>
+      </q-img>
+
+      <q-card-section>
         {{ text }}
-      </p>
+      </q-card-section>
     </q-card>
+
   </div>
 </template>
 
@@ -24,6 +31,11 @@ export default {
     },
 
     text: {
+      type: String,
+      required: true,
+    },
+
+    imgUrl: {
       type: String,
       required: true,
     },

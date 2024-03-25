@@ -16,6 +16,7 @@ export const aboutUsTexts = [
         Preises und die Aufteilung der Kosten auf Material und Arbeitszeit
         betrifft.
         `,
+    imgUrl: './src/assets/sunrays_forest.jpg'
   },
   {
     icon: 'people',
@@ -27,6 +28,7 @@ export const aboutUsTexts = [
         wir arbeiten wollen. Damit entscheiden also die Menschen über die Arbeitsbedingungen, die davon
         auch direkt betroffen sind und nicht irgendwelche Gesellschafter:innen in der der Ferne',
     `,
+    imgUrl: './src/assets/sunrays_valley.jpg'
   },
   {
     icon: 'tree',
@@ -44,5 +46,6 @@ export const aboutUsTexts = [
         außerdem für unser Büro Ökostrom von den Bürgerwerken, der zu 100% aus bürgereigenen
         Erneuerbare-Energien-Anlagen stammt.
     `,
+    imgUrl: './src/assets/forest.jpg'
   },
 ];
