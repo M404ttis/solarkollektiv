@@ -17,13 +17,8 @@
           lazy-rules
         />
 
-        <q-input
-          filled
-          v-model="roofDirection"
-          label="Ausrichtung des Daches"
-          hint="Bsp.: 5"
-          lazy-rules
-        />
+
+                <q-select filled v-model="roofDirection" :options="options" label="Dachausrichtung" />
 
         <div id="form-button-container" class="row justify-between">
           <q-btn label="Berechnen" type="submit" class="bg-secondary" color="primary"/>
@@ -45,6 +40,7 @@ export default defineComponent({
 
       const roofSize = ref(null)
       const roofDirection = ref('')
+      const options =  ref(["Nord", "Nord-Ost", "Ost", "Süd-Ost", "Süden", "Süd-West", "West", "Nord-West"]);
 
 
       const onSubmit = () => {
@@ -75,7 +71,7 @@ export default defineComponent({
         roofDirection.value = '';
         }
 
-      return{roofSize, roofDirection, onSubmit, onReset}
+      return{roofSize, roofDirection, onSubmit, onReset, options}
     }
 })
 
