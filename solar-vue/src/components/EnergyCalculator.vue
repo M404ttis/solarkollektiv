@@ -1,5 +1,5 @@
 <template >
-  <div class="q-pa-md row justify-center">
+  <div class="q-pa-md ">
     <q-card id="calculator-wrapper"
       class="q-pa-md "
     >
@@ -7,7 +7,7 @@
       <q-form
         @submit="onSubmit"
         @reset="onReset"
-        class="q-gutter-md">
+        class="q-gutter-md ">
 
         <q-input
           filled
