@@ -3,7 +3,7 @@
     <q-card id="calculator-wrapper"
       class="q-pa-md "
     >
-    <h6 class="q-my-md ">Einsparpotential Errechnen</h6>
+    <h6 class="q-mt-md row justify-center">Einsparpotential Errechnen</h6>
       <q-form
         @submit="onSubmit"
         @reset="onReset"
