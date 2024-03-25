@@ -1,24 +1,10 @@
 <template>
   <div id="about-us-card">
-    <!-- <q-card class="row justify-center q-ma-md q-pa-sm">
-      <q-img :src=$props.srcPath fit="cover"  :img-style="{ opacity: '0.3' }"  class="">
-        <div class="q-mb-md absolute-top text-center">{{ title }}</div>
-        <p class="q-ma-xs absolute-bottom overflow-auto">
-          {{ text }}
-        </p>
-      </q-img>
-    </q-card> -->
-
-    <q-card class="my-card q-ma-md q-pa-sm">
-      <q-img :src="$props.srcPath" rounded-borders>
-        <div class="absolute-bottom text-h6">
-          {{title}}
-        </div>
-      </q-img>
-
-      <q-card-section>
+    <q-card class="q-ma-md q-pa-sm">
+      <h4 class="q-mb-md">{{ title }}</h4>
+      <p class="q-ma-xs">
         {{ text }}
-      </q-card-section>
+      </p>
     </q-card>
   </div>
 </template>
@@ -40,10 +26,6 @@ export default {
     text: {
       type: String,
       required: true,
-    },
-    srcPath: {
-      type: String,
-      required: false,
     },
   },
   setup() {

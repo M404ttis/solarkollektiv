@@ -1,9 +1,9 @@
 <template >
-  <div class="q-pa-md"> 
+  <div class="q-pa-md row justify-center">
     <q-card id="calculator-wrapper"
-      class="q-pa-md"
+      class="q-pa-md "
     >
-        
+    <h6 class="q-my-md ">Einsparpotential Errechnen</h6>
       <q-form
         @submit="onSubmit"
         @reset="onReset"
@@ -42,7 +42,7 @@ export default defineComponent({
     components:{},
     setup() {
       const $q = useQuasar()
-        
+
       const roofSize = ref(null)
       const roofDirection = ref('')
 
@@ -67,7 +67,7 @@ export default defineComponent({
           })
 
         }
-      
+
       };
 
       const onReset = () => {
@@ -81,5 +81,5 @@ export default defineComponent({
 
 </script>
 <style lang="scss">
-    
+
 </style>
