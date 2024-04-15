@@ -13,7 +13,7 @@
 
 
     Vertreten durch:
-    Nils Fokuhl & Hannes Kühn
+    Nils Fokuhl \& Hannes Kühn
 
 
     Kontakt
@@ -37,3 +37,14 @@
     Verbraucherschlichtungsstelle teilzunehmen.
   </p>
 </template>
+
+<script lang="ts">
+  import {defineComponent} from 'vue'
+
+  export default
+     defineComponent({
+      name: 'ImpressumPage',
+      components: {},
+      setup(){ return{};}
+    })
+</script>
