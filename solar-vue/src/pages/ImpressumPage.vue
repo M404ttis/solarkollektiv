@@ -1,41 +1,56 @@
 <template>
-  <p>
-    Angaben gemäß § 5 TMG
+  <div class="column justify-start items-start">
+
+    <span>
+      Angaben gemäß § 5 TMG
+    </span>
+
+    <div class="column justify-start items-start">
+      <h5>Anschrift</h5>
+      <span>Solarkollektiv GmbH</span>
+      <span>Werner-Heisenberg-Straße 3</span>
+      <span>39106 Magdeburg</span>
+    </div>
 
 
-    Solarkollektiv GmbH
-    Werner-Heisenberg-Straße 3
-    39106 Magdeburg
+    <div class="column justify-start items-start">
+      <span>Handelsregister: HRB 31940</span>
+      <span>Registergericht: Stendal</span>
+    </div>
+
+    <div class="column justify-start items-start">
+      <span>Vertreten durch:</span>
+      <span>Nils Fokuhl & Hannes Kühn</span>
+    </div>
 
 
-    Handelsregister: HRB 31940
-    Registergericht: Stendal
+    <div class="column justify-start items-start">
+      <h5>Kontakt</h5>
+      <span>Telefon: +49 391 5576 0026 </span>
+      <span>Telefax: +49 391 5576 0023 </span>
+      <span>E-Mail: info[at]solarkollektiv.eu </span>
+    </div>
+
+    <div class="column justify-start items-start">
+      <h5>Umsatzsteuer-ID</h5>
+      <span>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:</span>
+      <span>DE357337685</span>
+    </div>
 
 
-    Vertreten durch:
-    Nils Fokuhl \& Hannes Kühn
+    <div class="column justify-start items-start">
+      <h5>EU-Streitschlichtung</h5>
+      <span>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:</span>
+      <span>https://ec.europa.eu/consumers/odr/</span>
+      <span>Unsere E-Mail-Adresse finden Sie oben im Impressum.</span>
+    </div>
 
+    <div class="column justify-start items-start">
+      <h5>Verbraucherstreitbeilegung/Universalschlichtungsstelle</h5>
+      <span>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</span>
+    </div>
 
-    Kontakt
-    Telefon: +49 391 5576 0026
-    Telefax: +49 391 5576 0023
-    E-Mail: info[at]solarkollektiv.eu
-
-    Umsatzsteuer-ID
-    Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
-    DE357337685
-
-
-    EU-Streitschlichtung
-    Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
-    https://ec.europa.eu/consumers/odr/.
-    Unsere E-Mail-Adresse finden Sie oben im Impressum.
-
-
-    Verbraucherstreitbeilegung/Universalschlichtungsstelle
-    Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
-    Verbraucherschlichtungsstelle teilzunehmen.
-  </p>
+  </div>
 </template>
 
 <script lang="ts">
@@ -48,3 +63,7 @@
       setup(){ return{};}
     })
 </script>
+
+<style lang="scss">
+  div, h5{margin: 0.5rem 0.2rem}
+</style>
