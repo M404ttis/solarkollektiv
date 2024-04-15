@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary text-white font-size">
+  <div class="bg-primary text-white font-size full-width" id="footerContainer">
     <div class="column justify-start items-center text-weigth-light text-caption" >
       <span> Solarkollektiv Gmbh </span>
       <span> Werner-Heisenberg-Straße </span>
@@ -25,5 +25,11 @@
     })
 </script>
 <style>
+
  span{margin: 0 0.2em}
+
+ #footerContainer{
+  margin:0;
+  width: 100%;
+ }
 </style>
