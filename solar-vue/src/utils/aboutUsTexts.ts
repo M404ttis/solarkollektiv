@@ -16,7 +16,7 @@ export const aboutUsTexts = [
         Preises und die Aufteilung der Kosten auf Material und Arbeitszeit
         betrifft.
         `,
-    imgUrl: './src/assets/pictures/people/team_roof-look_cut.jpg'
+    imgUrl: './src/assets/pictures/voltaik/IMG_20230615_145636.jpg'
   },
   {
     icon: 'people',
@@ -28,7 +28,7 @@ export const aboutUsTexts = [
         wir arbeiten wollen. Damit entscheiden also die Menschen über die Arbeitsbedingungen, die davon
         auch direkt betroffen sind und nicht irgendwelche Gesellschafter:innen in der der Ferne',
     `,
-    imgUrl: './src/assets/sunrays_valley.jpg'
+    imgUrl: './src/assets/pictures/people/team_roof-look_cut.jpg'
   },
   {
     icon: 'tree',
@@ -46,6 +46,6 @@ export const aboutUsTexts = [
         außerdem für unser Büro Ökostrom von den Bürgerwerken, der zu 100% aus bürgereigenen
         Erneuerbare-Energien-Anlagen stammt.
     `,
-    imgUrl: './src/assets/forest.jpg'
+    imgUrl: './src/assets/pictures/voltaik/PXL_20230713_141703439.jpg'
   },
 ];
