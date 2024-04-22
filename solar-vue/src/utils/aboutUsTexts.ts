@@ -16,7 +16,7 @@ export const aboutUsTexts = [
         Preises und die Aufteilung der Kosten auf Material und Arbeitszeit
         betrifft.
         `,
-    imgUrl: './src/assets/sunrays_forest.jpg'
+    imgUrl: './src/assets/pictures/people/team_roof-look_cut.jpg'
   },
   {
     icon: 'people',
