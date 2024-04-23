@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lff">
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -11,12 +11,9 @@
           @click="toggleLeftDrawer"
         />
 
-        <div class="gt-sm row justify-center col-md-6" >
-          <!-- <img src="../assets/pictures/logo/logo_solar_no-bg.png" -->
+        <q-toolbar-title @click="router.push('/')">
+           <q-img style="height:5vh; max-width: 90px; margin:0;" src="../assets/pictures/logo/logo_SOLAR_no-bg.png"
            alt="Solar Kollektiv Logo" />
-        </div>
-        <q-toolbar-title>
-          Solarkollektiv
         </q-toolbar-title>
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->
@@ -38,12 +35,17 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <FooterSimple/>
   </q-layout>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import EssentialLink from 'components/EssentialLink.vue';
+import FooterSimple from 'components/FooterSimple.vue';
+import {useRouter} from 'vue-router'
+
+const router = useRouter();
 
 const linksList = [
   {
@@ -95,12 +97,14 @@ export default defineComponent({
 
   components: {
     EssentialLink,
+    FooterSimple,
   },
 
   setup() {
     const leftDrawerOpen = ref(false);
 
     return {
+      router,
       essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {

@@ -1,14 +1,16 @@
 <template>
-  <div class="bg-primary text-white font-size full-width" id="footerContainer">
-    <div class="column justify-start items-center text-weigth-light text-caption" >
-      <span> Solarkollektiv Gmbh </span>
-      <span> Werner-Heisenberg-Straße </span>
-      <span> 39106 Magdeburg </span>
-      <span> 0391 5576 0026 </span>
-      <span>  info(at)solarkollektiv.eu </span>
-      <div @click="router.push('impressum')">impressum</div>
-    </div>
-  </div>
+  <q-footer>
+    <q-toolbar class="column flex-center">
+      <div class="column flex-center text-weigth-light text-caption" >
+        <span> Solarkollektiv Gmbh </span>
+        <span> Werner-Heisenberg-Straße </span>
+        <span> 39106 Magdeburg </span>
+        <span> 0391 5576 0026 </span>
+        <span>  info(at)solarkollektiv.eu </span>
+        <a @click="router.push('impressum')">impressum</a>
+      </div>
+    </q-toolbar>
+  </q-footer>
 </template>
 
 <script lang="ts">
@@ -28,8 +30,4 @@
 
  span{margin: 0 0.2em}
 
- #footerContainer{
-  margin:0;
-  width: 100%;
- }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="column justify-start items-start">
+  <q-page class="items-center justify-evenly">
 
     <span>
       Angaben gemäß § 5 TMG
@@ -50,7 +50,7 @@
       <span>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</span>
     </div>
 
-  </div>
+  </q-page>
 </template>
 
 <script lang="ts">
