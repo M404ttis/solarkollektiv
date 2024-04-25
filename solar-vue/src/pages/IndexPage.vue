@@ -12,7 +12,7 @@
 // import AboutUsCarousel from 'components/AboutUsCarousel.vue';
 import EnergyCalculator from 'components/EnergyCalculator.vue';
 import AboutUsMosaik from 'components/AboutUsMosaik.vue';
-import LogoLogo from 'components/TestComp.vue'
+import LogoLogo from 'components/LogoLogo.vue'
 import { defineComponent } from 'vue';
 
 export default defineComponent({
