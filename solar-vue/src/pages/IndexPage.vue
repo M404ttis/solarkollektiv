@@ -1,5 +1,6 @@
 <template>
   <q-page class="items-center justify-evenly">
+    <LogoLogo/>
     <AboutUsMosaik/>
     <!-- <AboutUsCarousel /> -->
     <EnergyCalculator/>
@@ -11,14 +12,15 @@
 // import AboutUsCarousel from 'components/AboutUsCarousel.vue';
 import EnergyCalculator from 'components/EnergyCalculator.vue';
 import AboutUsMosaik from 'components/AboutUsMosaik.vue';
+import LogoLogo from 'components/TestComp.vue'
 import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'IndexPage',
   components: {
-      // AboutUsCarousel,
-      EnergyCalculator,
-      AboutUsMosaik,
+     LogoLogo,
+     EnergyCalculator,
+     AboutUsMosaik,
    },
   setup() {
     return { };
