@@ -1,6 +1,6 @@
 <template>
-  <q-footer>
-    <q-toolbar class="column flex-center">
+  <q-footer class="bg-tertiary">
+    <q-toolbar class="column flex-center ">
       <div class="column flex-center text-weigth-light text-caption" >
         <span> Solarkollektiv Gmbh </span>
         <span> Werner-Heisenberg-Straße </span>
@@ -29,5 +29,7 @@
 <style>
 
  span{margin: 0 0.2em}
+
+ a{text-decoration: underline;}
 
 </style>

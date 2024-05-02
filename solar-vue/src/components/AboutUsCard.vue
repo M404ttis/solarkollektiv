@@ -1,7 +1,7 @@
 <template>
   <div id="about-us-card ">
 
-    <q-card class="my-card q-ma-md">
+    <q-card class="my-card q-ma-md box-shadow">
       <q-img :src=imgUrl>
         <div class="absolute-bottom text-h6">
           {{title}}
@@ -46,4 +46,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+.box-shadow{
+  box-shadow:5px 5px 5px  $secondary;
+}
+</style>
