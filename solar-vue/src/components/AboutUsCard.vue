@@ -49,6 +49,7 @@ export default {
 <style lang="scss" scoped>
 
 .box-shadow{
-  box-shadow:5px 5px 5px  $secondary;
+  /* border-style: 2px solid $secondary; */
+  box-shadow:5px 5px 5px $secondary;
 }
 </style>

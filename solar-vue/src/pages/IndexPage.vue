@@ -1,9 +1,9 @@
 <template>
   <q-page class="items-center justify-evenly">
     <LogoLogo/>
-    <AboutUsMosaik/>
+        <AboutUsMosaik/>
     <!-- <AboutUsCarousel /> -->
-    <EnergyCalculator/>
+    <!-- <EnergyCalculator/> -->
   </q-page>
 </template>
 
@@ -19,7 +19,7 @@ export default defineComponent({
   name: 'IndexPage',
   components: {
      LogoLogo,
-     EnergyCalculator,
+     // EnergyCalculator,
      AboutUsMosaik,
    },
   setup() {
