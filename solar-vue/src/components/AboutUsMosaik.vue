@@ -1,9 +1,7 @@
 <template>
   <div id="about-us-mosaik-container"
     v-for="asset in aboutUsTexts" :key="asset.text">
-        <AboutUsCard
-            v-bind="asset"
-        />
+        <AboutUsCard v-bind="asset" />
   </div>
 </template>
 
