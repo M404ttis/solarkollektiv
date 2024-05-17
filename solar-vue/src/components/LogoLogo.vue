@@ -1,5 +1,7 @@
 <template>
-  <q-img src="../assets/pictures/logo/Logo_komplett_V2.png"/>
+  <div>
+    <q-img src="../assets/pictures/logo/Logo_komplett_V2.png"/>
+  </div>
 </template>
 
 <script lang="ts">

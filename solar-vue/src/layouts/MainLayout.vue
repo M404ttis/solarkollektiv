@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lff">
+  <q-layout view="lHh Lpr lff" class="bg-primary">
     <q-header elevated>
       <q-toolbar @click="router.push('/')">
         <!--
@@ -35,7 +35,7 @@
     <!-- </q-drawer> -->
     <!---->
 
-    <q-page-container>
+    <q-page-container class="bg-primary">
       <router-view />
     </q-page-container>
     <FooterSimple/>

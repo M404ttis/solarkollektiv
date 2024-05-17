@@ -1,6 +1,6 @@
 <template>
-  <div class='text-center'>
-    <h4 class='text-center'>
+  <div >
+    <h4 class='text-center text-white q-my-none'>
       Wir bauen Photovoltaik-Anlagen auf Ihr Dach und machen den Anschluss bei Bedarf gleich mit.
     </h4>
   </div>
