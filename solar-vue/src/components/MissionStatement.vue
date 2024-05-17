@@ -1,8 +1,8 @@
 <template>
-  <div class='column justify-center items-center'>
-    <h3 class='column justify-center items-center'>
+  <div class='text-center'>
+    <h4 class='text-center'>
       Wir bauen Photovoltaik-Anlagen auf Ihr Dach und machen den Anschluss bei Bedarf gleich mit.
-    </h3>
+    </h4>
   </div>
 </template>
 
