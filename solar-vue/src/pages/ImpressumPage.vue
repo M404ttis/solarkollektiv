@@ -1,5 +1,5 @@
 <template>
-  <q-page class="items-center justify-evenly">
+  <q-page class="items-center justify-evenly text-white">
 
     <span>
       Angaben gemäß § 5 TMG
