@@ -2,7 +2,7 @@
   <q-footer class="bg-tertiary">
     <q-toolbar class="column flex-center ">
       <div class="column flex-center text-weigth-light text-caption" >
-        <span> Solarkollektiv Gmbh </span>
+        <span> Solarkollektiv GmbH </span>
         <span> Werner-Heisenberg-Straße </span>
         <span> 39106 Magdeburg </span>
         <span> 0391 5576 0026 </span>

@@ -1,7 +1,7 @@
 <template>
-  <div id="about-us-card ">
+  <div id="about-us-card col-12 col-md-6" >
 
-    <q-card class="my-card q-ma-md box-shadow">
+    <q-card class="my-card q-ma-md box-shadow" >
       <q-img :src=imgUrl>
         <div class="absolute-bottom text-h6">
           {{title}}

@@ -13,8 +13,8 @@
         />
         -->
 
-        <q-toolbar-title>
-             <q-img style="height:5vh; max-width: 90px; margin:0;" src="../assets/pictures/logo/logo_SOLAR_no-bg.png"
+        <q-toolbar-title style="no-margin">
+             <q-img style="height:100%; max-width: 90px; margin:0;" src="../assets/pictures/logo/logo_SOLAR_no-bg.png"
              alt="Solar Kollektiv Logo" />
         </q-toolbar-title>
 
