@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <q-img src="../assets/pictures/logo/Logo_komplett_V2.png"/>
+  <div class="row justify-center" >
+    <q-img class="col-xs-12 col-sm-12 col-md-10 col-lg-8 q-mt-none" src="../assets/pictures/logo/Logo_komplett_V2.png"/>
   </div>
 </template>
 
