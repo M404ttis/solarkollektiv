@@ -1,6 +1,6 @@
 <template>
-  <div id="about-us-mosaik-container" class="row" >
-        <AboutUsCard class="col-12 col-md-5" v-for="asset in aboutUsTexts" :key="asset.text" v-bind="asset" />
+  <div id="about-us-mosaik-container" class="row justify-center" >
+        <AboutUsCard class="col-xs-12 col-sm-10 col-md-8 col-lg-8" v-for="asset in aboutUsTexts" :key="asset.text" v-bind="asset" />
   </div>
 </template>
 
@@ -28,6 +28,7 @@ export default {
 
 
 // if larger screen, display side by side
+/*
 @media (min-width: 601px){
   #about-us-mosaik-container{
     display: grid;
@@ -35,5 +36,5 @@ export default {
     justify-content: center;
   }
 }
+  */
 </style>
-

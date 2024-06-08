@@ -1,5 +1,5 @@
 <template>
-  <div id="about-us-card col-12 col-md-6" >
+  <div id="about-us-card" >
 
     <q-card class="my-card q-ma-md box-shadow" >
       <q-img :src=imgUrl>
